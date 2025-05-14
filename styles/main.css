@@ -5,7 +5,10 @@ html {
   --backgroundcolor: #f8e6d2;
   --orange: #e37b55;
   --purple: #997bb2;
+  --white: #f5f5f5;
 }
+
+/* ----- BASIC CSS ------ */
 
 h1,
 h2,
@@ -15,4 +18,19 @@ p {
 
 body {
   background-color: var(--backgroundcolor);
+}
+
+/* ----- COLORS DEFINED AS CLASSES ----- */
+
+.white {
+  color: var(--white);
+}
+.brown {
+  color: var(--brown);
+}
+.orange {
+  color: var(--orange);
+}
+.purple {
+  color: var(--purple);
 }
