@@ -1,0 +1,18 @@
+/* -----MAIN COLOR PALETTE------ */
+
+html {
+  --brown: #7f343e;
+  --backgroundcolor: #f8e6d2;
+  --orange: #e37b55;
+  --purple: #997bb2;
+}
+
+h1,
+h2,
+p {
+  color: var(--brown);
+}
+
+body {
+  background-color: var(--backgroundcolor);
+}
