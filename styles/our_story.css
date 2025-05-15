@@ -8,6 +8,40 @@ img {
   width: 100%;
   height: auto;
   display: block;
+  padding-top: 10px;
+}
+
+/* MOBILE */
+
+.grid_lets_take_you_back {
+  display: grid;
+  place-items: center;
+  padding-top: 40px;
+}
+
+.grid_a_passion_for_creativity {
+  display: grid;
+  place-items: center;
+  padding-top: 40px;
+}
+
+.grid_a_passion_for_creativity p {
+  text-align: left;
+}
+
+.grid_a_passion_for_creativity h2 {
+  text-align: center;
+}
+
+.grid_uniqueness {
+  display: grid;
+  place-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+main {
+  margin: 10px;
 }
 
 /* GRIDS DESKTOP */
@@ -15,25 +49,33 @@ img {
   .grid_lets_take_you_back {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
     place-items: center;
-  }
-
-  .grid_1-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
   }
 
   .grid_a_passion_for_creativity {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
+    place-items: center;
+  }
+
+  .grid_a_passion_for_creativity_text {
+    text-align: left;
+  }
+
+  .grid_a_passion_for_creativity h2 {
+    text-align: left;
   }
 
   .grid_uniqueness {
     display: grid;
     grid-template-columns: 1fr;
+    place-items: start;
+  }
+
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
+    place-items: center;
   }
 }
