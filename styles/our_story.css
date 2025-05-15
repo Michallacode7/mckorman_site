@@ -9,3 +9,31 @@ img {
   height: auto;
   display: block;
 }
+
+/* GRIDS DESKTOP */
+@media (min-width: 768px) {
+  .grid_lets_take_you_back {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    place-items: center;
+  }
+
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .grid_a_passion_for_creativity {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .grid_uniqueness {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
