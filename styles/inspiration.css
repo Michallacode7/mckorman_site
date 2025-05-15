@@ -14,8 +14,17 @@ img {
 .grid_1 {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1rem;
+  gap: 0.5rem;
   place-items: center;
+  padding-block: 5%;
+}
+
+.sunglass_grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.7rem;
+  place-items: center;
+  padding-block: 2%;
 }
 
 .got_kicks_grid {
@@ -24,7 +33,7 @@ img {
 }
 
 .got_kicks_text {
-  margin: 0 5%;
+  margin: 0 5% 2% 5%;
   font-size: 1rem;
 }
 
@@ -33,16 +42,16 @@ img {
   height: auto;
 }
 
-.sunglass_grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 0.7rem;
-  place-items: center;
-  padding-inline: 2%;
-}
-
 .colorful_moments {
   margin: 5% 0 10% 0;
+}
+
+h1 {
+  font-size: 2.7rem;
+}
+
+h2 {
+  font-size: 2.3rem;
 }
 
 /* Responsive styles for desk*/
@@ -52,10 +61,21 @@ img {
     grid-template-columns: 1fr 1.5fr;
     gap: 1rem;
     place-items: center;
-    margin-top: 8%;
+    margin-bottom: 8%;
   }
 
   .got_kicks_text {
     margin: 0 10% 0 20%;
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 908px) {
+  h1 {
+    font-size: 5.5rem;
   }
 }
