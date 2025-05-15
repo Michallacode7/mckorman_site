@@ -8,12 +8,55 @@ html {
   --white: #f5f5f5;
 }
 
+/* ----- FONTS ------- */
+
+/* Open Sans */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+@font-face {
+  font-family: "BroadwayFlat";
+  src: url("/fonts/broadwayflat-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HighriseDemo";
+  src: url("/fonts/highrisefont-demo-regular-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kelvinized";
+  src: url("/fonts/kelvinized-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.BroadwayFlat {
+  font-family: "BroadwayFlat";
+}
+
+.HighriseDemo {
+  font-family: "HighriseDemo";
+}
+
+.Kelvinized {
+  font-family: "Kelvinized";
+}
+
 /* ----- BASIC CSS ------ */
 
 h1,
-h2,
+h2 {
+  color: var(--brown);
+  font-family: "BroadwayFlat";
+}
+
 p {
   color: var(--brown);
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
