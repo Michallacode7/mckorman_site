@@ -1,0 +1,31 @@
+.side-border {
+  position: fixed; /* stick to screen */
+  top: 0;
+  height: 100vh;
+  width: auto;
+  z-index: 1;
+  pointer-events: none; /* so they don’t block clicks */
+}
+
+.side-border.left {
+  left: 0;
+}
+
+.side-border.right {
+  right: 0;
+}
+
+.side-border img {
+  height: 100vh;
+  width: 10px; /* ← increase this to stretch horizontally */
+  object-fit: cover; /* optional: helps keep aspect ratio cleaner */
+  display: block;
+}
+
+.main-content {
+  position: relative;
+  z-index: 2; /* make sure it’s above the SVGs */
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
