@@ -11,7 +11,17 @@ img {
   padding-top: 10px;
 }
 
-/* MOBILE */
+/* DESIGN */
+
+p {
+  margin-block: 1rem;
+}
+
+.p_bold {
+  font-weight: bold;
+}
+
+/* MOBILE GRIDS */
 
 .grid_lets_take_you_back {
   display: grid;
@@ -44,7 +54,7 @@ main {
   margin: 10px;
 }
 
-/* GRIDS DESKTOP */
+/* DESKTOP GRIDS */
 @media (min-width: 768px) {
   .grid_lets_take_you_back {
     display: grid;
