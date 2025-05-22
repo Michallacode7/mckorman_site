@@ -77,3 +77,32 @@ body {
 .purple {
   color: var(--purple);
 }
+
+/* FOOTER  */
+
+.grid_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 35px;
+}
+
+footer {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+  font-size: smaller;
+}
+
+footer p {
+  color: var(--white);
+  font-family: HighriseDemo;
+}
+
+/* DESKTOP  */
+@media (min-width: 768px) {
+  footer p {
+    font-size: x-large;
+  }
+}

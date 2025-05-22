@@ -30,6 +30,8 @@ img {
   border-radius: 5px;
   font-size: 15px;
   text-align: center;
+  font-family: HighriseDemo;
+  width: 100px;
 }
 
 h1 {
@@ -76,8 +78,9 @@ h1 {
   }
 
   .home_knap {
-    font-size: 30px;
+    font-size: 40px;
     padding: 20px;
     border-radius: 10px;
+    width: 150px;
   }
 }
