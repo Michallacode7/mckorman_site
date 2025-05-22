@@ -25,12 +25,30 @@ img {
   display: inline-block;
   padding: 10px;
   background-color: var(--orange);
-  color: white;
+  color: var(--white);
   text-decoration: none;
   border-radius: 5px;
-  font-size: 10px;
-  margin-top: 20px;
-  margin-bottom: 50px;
+  font-size: 15px;
+  text-align: center;
+}
+
+h1 {
+  color: var(--white);
+  font-size: 40px;
+}
+
+.forside_box {
+  position: absolute;
+  text-align: center;
+}
+
+.video_tekst {
+  position: relative;
+  display: flex;
+  justify-content: center; /* Centrerer horisontalt */
+  align-items: center; /* Centrerer vertikalt */
+  height: 100vh; /* Sørger for at div'en fylder hele skærmen */
+  overflow: hidden;
 }
 
 /* DESKTOP  */
@@ -51,5 +69,15 @@ img {
 
   .hide_mobile {
     display: block;
+  }
+
+  h1 {
+    font-size: 100px;
+  }
+
+  .home_knap {
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 10px;
   }
 }
