@@ -21,6 +21,10 @@ p {
   font-weight: bold;
 }
 
+footer p {
+  color: var(--brown);
+}
+
 /* MOBILE GRIDS */
 
 .grid_lets_take_you_back {

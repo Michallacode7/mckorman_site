@@ -53,6 +53,14 @@ h1 {
   overflow: hidden;
 }
 
+.some_ikoner {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+}
+
 /* DESKTOP  */
 @media (min-width: 768px) {
   .fullscreen-video {

@@ -54,6 +54,10 @@ h2 {
   font-size: 2.3rem;
 }
 
+footer p {
+  color: var(--brown);
+}
+
 /* Responsive styles for desk*/
 @media (min-width: 768px) {
   .got_kicks_grid {
