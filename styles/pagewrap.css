@@ -1,0 +1,55 @@
+/* ----- MENU ----- */
+
+.logobox {
+  position: absolute;
+  top: 12px; /* Distance from top of screen */
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 4;
+}
+
+.logotext {
+  font-family: kelvinized;
+  font-size: 2.2rem;
+  color: var(--orange);
+  -webkit-text-stroke: 1px yellow;
+  text-shadow: 0 0 4px yellow;
+}
+
+/* -----Page Borders----- */
+
+.side-border {
+  position: fixed; /* stick to screen */
+  top: 0;
+  height: 100vh;
+  width: auto;
+  z-index: 1;
+  pointer-events: none; /* so they don’t block clicks */
+}
+
+.side-border.left {
+  left: 0;
+}
+
+.side-border.right {
+  right: 0;
+}
+
+.side-border img {
+  height: 100vh;
+  width: 10px; /* ← increase this to stretch horizontally */
+  object-fit: cover; /* optional: helps keep aspect ratio cleaner */
+  display: block;
+}
+
+.main-content {
+  position: relative;
+  z-index: 2; /* make sure it’s above the SVGs */
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+}
