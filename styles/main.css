@@ -49,7 +49,8 @@ html {
 /* ----- BASIC CSS ------ */
 
 h1,
-h2 {
+h2,
+h3 {
   color: var(--brown);
   font-family: "BroadwayFlat";
 }

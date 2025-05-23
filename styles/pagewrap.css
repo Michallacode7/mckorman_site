@@ -1,3 +1,24 @@
+/* ----- MENU ----- */
+
+.logobox {
+  position: absolute;
+  top: 12px; /* Distance from top of screen */
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 4;
+}
+
+.logotext {
+  font-family: kelvinized;
+  font-size: 2.2rem;
+  color: var(--orange);
+  -webkit-text-stroke: 1px yellow;
+  text-shadow: 0 0 4px yellow;
+}
+
+/* -----Page Borders----- */
+
 .side-border {
   position: fixed; /* stick to screen */
   top: 0;
@@ -28,4 +49,7 @@
   padding: 2rem;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+@media (min-width: 768px) {
 }
