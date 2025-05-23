@@ -64,7 +64,7 @@
     position: absolute;
     top: 80px; /* or whatever height fits below your header */
     right: 20px;
-    width: 160px; /* control width */
+    width: 200px; /* control width */
     background: var(--orange);
     padding: 1rem;
     flex-direction: column;
