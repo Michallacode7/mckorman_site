@@ -7,43 +7,76 @@
     <title>Our Story</title>
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/our_story.css">
+    <link rel="stylesheet" href="styles/pagewrap.css">
+    <link rel="stylesheet" href="styles/menu.css">
+    <script src="menu.js"></script>
 </head>
 
 <body>
-    <header></header>
-    <main>
-        <div class="grid_lets_take_you_back">
-            <h1>LET'S TAKE YOU BACK</h1>
-            <div class="grid_1-1">
-                <img src="images/skater.webp" alt="Skater">
-                <img src="images/car_70_1.webp" alt="Car">
-            </div>
+    <header class="menu-header">
+        <img src="/assets/menu-rect.svg" alt="Menu Shape" class="menu-shape">
+
+        <div class="logobox">
+            <h1 class="logotext">McVintage</h1>
         </div>
-        <div class="grid_a_passion_for_creativity">
-            <div class="grid_a_passion_for_creativity_text">
-                <h2>A PASSION FOR CREATIVITY</h2>
-                <p class="p_bold">Since 1982 McKorman has been a regular part of Nørrebrogade - Right by "Dronning
-                    Louise's Bro"</p>
-                <p>We are proud to be one of the oldest clothing stores in the area. At McKorman you will find an
-                    exciting selection of
-                    men's and women's clothing that combines vintage and streetwear styles. Our passion for fashion and
-                    quality shines
-                    through in every item we have on the shelves. Come in and experience our unique selection of
-                    clothing that stands out
-                    from the crowd.</p>
-                <p>We look forward to welcoming you to our store!</p>
+
+        <nav class="menu-nav">
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="our_story.html">Our Story</a></li>
+                <li><a href="inspiration.html">Inspiration</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
             </div>
-            <div class="grid_1-1">
-                <img src="images/white_shoes.webp" alt="White shoes">
-                <img src="images/sunglass_1.webp" alt="Sunglasses">
+        </nav>
+
+    </header>
+
+    <div class="page-wrapper">
+        <img src="/assets/curve-left.svg" alt="Left Curve" class="side-border Border left">
+        <img src="/assets/curve-right.svg" alt="right Curve" class="side-border border right">
+
+        <main>
+            <div class="grid_lets_take_you_back">
+                <h1>LET'S TAKE YOU BACK</h1>
+                <div class="grid_1-1">
+                    <img src="images/skater.webp" alt="Skater">
+                    <img src="images/car_70_1.webp" alt="Car">
+                </div>
             </div>
-        </div>
-        <div class="grid_uniqueness">
-            <h2>UNIQUENESS</h2>
-            <img src="images/sunglasses_wear_2.webp" alt="Sunglasses wear">
-        </div>
-    </main>
-    <footer></footer>
+            <div class="grid_a_passion_for_creativity">
+                <div class="grid_a_passion_for_creativity_text">
+                    <h2>A PASSION FOR CREATIVITY</h2>
+                    <p class="p_bold">Since 1982 McKorman has been a regular part of Nørrebrogade - Right by "Dronning
+                        Louise's Bro"</p>
+                    <p>We are proud to be one of the oldest clothing stores in the area. At McKorman you will find an
+                        exciting selection of
+                        men's and women's clothing that combines vintage and streetwear styles. Our passion for fashion
+                        and
+                        quality shines
+                        through in every item we have on the shelves. Come in and experience our unique selection of
+                        clothing that stands out
+                        from the crowd.</p>
+                    <p>We look forward to welcoming you to our store!</p>
+                </div>
+                <div class="grid_1-1">
+                    <img src="images/white_shoes.webp" alt="White shoes">
+                    <img src="images/sunglass_1.webp" alt="Sunglasses">
+                </div>
+            </div>
+            <div class="grid_uniqueness">
+                <h2>UNIQUENESS</h2>
+                <img src="images/sunglasses_wear_2.webp" alt="Sunglasses wear">
+            </div>
+        </main>
+        <footer></footer>
+
+    </div>
 </body>
 
 </html>
