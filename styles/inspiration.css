@@ -58,6 +58,12 @@ footer p {
   color: var(--brown);
 }
 
+.lottie {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* Responsive styles for desk*/
 @media (min-width: 768px) {
   .got_kicks_grid {

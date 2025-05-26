@@ -8,7 +8,6 @@ img {
   width: 100%;
   height: auto;
   display: block;
-  padding-top: 10px;
 }
 
 /* DESIGN */
@@ -55,7 +54,7 @@ footer p {
 }
 
 main {
-  margin: 10px;
+  margin: 10px 30px;
 }
 
 /* DESKTOP GRIDS */
