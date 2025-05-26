@@ -40,6 +40,10 @@
   font-size: 3.3rem;
 }
 
+.logolink {
+  text-decoration: none;
+}
+
 /* Burger icon hidden by default */
 .burger {
   display: none;
