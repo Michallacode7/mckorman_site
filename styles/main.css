@@ -15,21 +15,21 @@ html {
 
 @font-face {
   font-family: "BroadwayFlat";
-  src: url("fonts/broadwayflat-webfont.woff2") format("woff2");
+  src: url("/fonts/broadwayflat-webfont.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "HighriseDemo";
-  src: url("fonts/highrisefont-demo-regular-webfont.woff2") format("woff2");
+  src: url("/fonts/highrisefont-demo-regular-webfont.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Kelvinized";
-  src: url("fonts/kelvinized-webfont.woff2") format("woff2");
+  src: url("/fonts/kelvinized-webfont.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
